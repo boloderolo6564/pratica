@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+header {
+    background: #5167b2;
+    padding: 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    }
+a {
+        text-decoration: none;
+        color: black;
+    }
+.botao {
+        border-radius: 30px;
+        background-color: #e7e7e7;
+        color: black;
+        border: none;
+        padding: 15px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        
+}
+.botao:hover{
+    background-color:  #81b8ec;
+}
+h6 {
+    color: white;
+    font-weight: 100;
+    font-size:28px;
+  }
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#buttons{
+    height:50px ;
+    width: 100px;
+    border-radius: 10px;
+    cursor:pointer;
+    text-align: center;
+    
+}
+*buttons{
+    transition:background-color 0,3s ease;
+}
+#buttons:hover{
+    background-color: #81b8ec; ;
+
+}

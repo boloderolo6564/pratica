@@ -1,0 +1,20 @@
+.buttons{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+#buttons{
+    height:50px ;
+    width: 100px;
+    border-radius: 10px;
+    cursor:pointer;
+    text-align: center;
+    
+}
+*buttons{
+    transition:background-color 0,3s ease;
+}
+#buttons:hover{
+    background-color: #81b8ec; ;
+
+}
