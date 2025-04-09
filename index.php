@@ -22,6 +22,10 @@ if ($paginaUrl === 'login') {
     include_once './site/view/header.php';
     include_once './site/view/nada.php';
     include_once './site/view/footer.php';
+}elseif($paginaUrl==="cadastrar-responsa"){
+    include_once './site/view/header.php';
+    include_once './site/view/cadastrar-responsa.php';
+    include_once './site/view/footer.php';
 }
 
 ?>

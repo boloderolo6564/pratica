@@ -8,7 +8,7 @@ include_once("header.php");?>
     <a href="<?=constant(name:"URL_LOCAL_PAGINA")?>lista-alunos">
         <button id="buttons" type="button">Lista de alunos</button>
     </a>
-    <a href="<?=constant(name:"URL_LOCAL_PAGINA")?>login">
+    <a href="<?=constant(name:"URL_LOCAL_PAGINA")?>cadastrar-responsa">
         <button id="buttons" type="button" >Cadastrar responsavel</button>
     </a><br>
     <a href="<?=constant(name:"URL_LOCAL_PAGINA")?>login">

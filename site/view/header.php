@@ -16,7 +16,10 @@
         <link rel="stylesheet" href="<?=constant(name:"URL_LOCAL_CSS")?>header.css">
         <link rel="stylesheet" href="<?=constant(name:"URL_LOCAL_CSS")?>principal.css">
     <?php endif;?>
-
+    <?php if($paginaUrl=="cadastrar-responsa"):?>
+        <link rel="stylesheet" href="<?=constant(name:"URL_LOCAL_CSS")?>header.css">
+        <link rel="stylesheet" href="<?=constant(name:"URL_LOCAL_CSS")?>cadastrar-responsa.css">
+    <?php endif;?>
     <link rel="stylesheet" href="<?=constant(name:"URL_LOCAL_CSS")?>header.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
